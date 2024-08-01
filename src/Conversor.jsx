@@ -6,7 +6,7 @@ import './App.css'
 function Conversor() {
   const [textoAVoz, setTextoAVoz] =useState('')
   const [vozATexto, setVozATexto] =useState('')
-}
+
   function cambiarTexto(evento) {
     setTextoAVoz(evento.target.value)
   }
@@ -40,7 +40,7 @@ function Conversor() {
     <button onClick={grabarVozATexto}>Grabar</button>
     {vozATexto}
       </>
-);
-
+   ); 
+  }
 
 export default Conversor

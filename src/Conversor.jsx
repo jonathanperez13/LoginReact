@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
-function conversor() {
+function Conversor() {
   const [textoAVoz, setTextoAVoz] =useState('')
   const [vozATexto, setVozATexto] =useState('')
 }
@@ -43,4 +43,4 @@ function conversor() {
 );
 
 
-export default conversor
+export default Conversor
